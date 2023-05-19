@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultra.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout/template}">
+
+<th:block layout:fragment="content">
+    <div id="main" class="row mt-2">
+        <div class="col">
+            <nav class="row navbar bg-primary bg-opacity-10">
+                <div class="container-fluid">
+                    <a href="#" class="col-6 text-end pe-4 text-dark pt-2" style="text-decoration: none;">
+                        <h5 style="font-weight: bold;">영화</h5></a>
+                    <a href="#" class="col-6 text-start ps-4 text-dark pt-2" style="text-decoration: none;">
+                        <h5 style="font-weight: bold">예매</h5></a>
+                </div>
+            </nav>
+
+            <div class="row mt-5">
+                <div class="col-2">
+                    <ul class="list-group">
+                        <li class="list-group-item active" aria-current="true">예매 내역</li>
+                        <li class="list-group-item">회원 정보 수정</li>
+                    </ul>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-9">
+                    <div class="row">
+                        <table style="border: 1px solid blue">
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-2">이미지</div>
+                                        <div class="col-10" style="font-weight: bold; font-size: 25px">
+                                            <div>안녕하세요!</div>
+                                            <div>누구님</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</th:block>
+
+</html>
